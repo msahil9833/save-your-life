@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SOS - Your Lifeline in Emergencies</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="cursor"></div>
+    <div class="cursor-follower"></div>
+
+    <header>
+      <nav>
+        <div class="logo">
+          <svg width="50" height="50" viewBox="0 0 100 100">
+            <circle
+              cx="50"
+              cy="50"
+              r="45"
+              fill="none"
+              stroke="#ff4d4d"
+              stroke-width="8"
+            />
+            <text
+              x="50"
+              y="65"
+              text-anchor="middle"
+              fill="#ff4d4d"
+              font-size="40"
+              font-weight="bold"
+            >
+              SOS
+            </text>
+          </svg>
+        </div>
+        <ul class="nav-links">
+          <li><a href="#hero" class="nav-link">Home</a></li>
+          <li><a href="#features" class="nav-link">Features</a></li>
+          <li><a href="#stats" class="nav-link">Statistics</a></li>
+          <li><a href="#tech" class="nav-link">Technology</a></li>
+          <li><a href="#cta" class="nav-link">Get Started</a></li>
+        </ul>
+        <div class="burger">
+          <div class="line1"></div>
+          <div class="line2"></div>
+          <div class="line3"></div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section id="hero" class="hero">
+        <div class="hero-content">
+          <h1 class="glitch" data-text="SOS: Your Lifeline">
+            SOS : Your Lifeline
+          </h1>
+          <p class="subtitle">
+            Instant help at your fingertips, anytime, anywhere.
+          </p>
+          <button class="cta-button">save our souls</button>
+        </div>
+        <div class="hero-image">
+          <video controls autoplay loop muted preload src="./WhatsApp Video 2024-09-09 at 12.09.18 PM.mp4"></video>
+          <!-- <img
+            src="./Screenshot_2024-09-09-10-47-45-39.jpg"
+            alt="Emergency Situation"
+            class="parallax-image"
+          /> -->
+        </div>
+      </section>
+      <div class="section2">
+        <div class="section-title"><h1>What we have</h1></div>
+        <div class="image"><img src="./IMG_20240909_110549.jpg" alt=""></div>
+      </div>
+      <section id="features" class="features">
+        <h2 class="section-title">Key Features</h2>
+        <div class="feature-grid">
+          <div class="feature-item" data-tilt>
+            <i class="fas fa-microphone-alt"></i>
+            <h3>Voice Command</h3>
+            <p>Activate SOS with simple voice commands</p>
+          </div>
+          <div class="feature-item" data-tilt>
+            <i class="fas fa-map-marker-alt"></i>
+            <h3>Real-time Location</h3>
+            <p>Precise GPS tracking for immediate assistance</p>
+          </div>
+          <div class="feature-item" data-tilt>
+            <i class="fa-solid fa-stopwatch-20"></i>
+            <h3>Timer Activation</h3>
+            <p>Auto Active after Some Time With Help Of Password</p>
+          </div>
+          <div class="feature-item" data-tilt>
+            <i class="fa-solid fa-message"></i>
+            <h3>Multi-Messaging</h3>
+            <p>Auto Info Your Loved Once </p>
+          </div>
+          <div class="feature-item" data-tilt>
+            <i class="fa-solid fa-mobile-button"></i>
+            <h3>Smart Gesture</h3>
+            <p>Easy Activation In Difficult Situation</p>
+          </div>
+          <div class="feature-item" data-tilt>
+            <i class="fa-solid fa-toggle-off"></i>
+            <h3>Physical Button</h3>
+            <p>Simple Click to Activate</p>
+          </div>
+          <div class="feature-item" data-tilt>
+            <i class="fa-solid fa-satellite"></i>
+            <h3>Satellite Connection</h3>
+            <p>For Effective Tracking In Case Of Emergency</p>
+          </div>
+          <div class="feature-item" data-tilt>
+            <i class="fa-solid fa-microchip"></i>
+            <h3>Motion Sensor</h3>
+            <p>Notice Unusual Motion</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="stats" class="stats">
+        <h2 class="section-title">Crime Statistics</h2>
+        <div class="stats-grids">
+          <div class="stat-item">
+            <h2>Women Harassment</h2>
+            <div class="chart" id="violentCrimeChart">
+              <img src="./maharashtra-womens-commission-rolls-out-training-in-anti-harassment-laws-at-colleges.jpg" alt="">
+              <h3>
+                In 2021, 31,677 rape cases were registered in India, which is an average of 86 cases per day. Rajasthan reported the highest number of rapes. <br> <br> Unwanted sexual contact
+                an estimated 27.2% of women and 11.7% of men have experienced unwanted sexual contact in their lifetime. <br> <br> Age of first rape
+                most female victims of completed rape experienced their first rape before the age of 25, and 42.2% experienced their first completed rape before the age of 18 and
+                Only 2% of rapists are convicted and imprisoned. </h3>
+                <h3></h3>
+                  <h3></h3>
+            </div>
+          </div>
+          <div class="stat-item">
+            <h2>Child Abuse</h2>
+            <div class="chart" id="propertyCrimeChart">
+              <img src="./child-abuse.avif" alt="">
+              <h3>Child abuse cases on the rise
+                In 2022, India saw a 8.7% increase in child abuse cases, reaching 162,000 incidents. <br> <br> Child sexual abuse
+                according to NCRB data, 28.9% of children in India experienced some kind of crime against them, but only 65.6% of crimes are reported and
+                child rape cases increased by 96% from 2016 to 2022, likely due to higher reporting.  <br> <br>
+                The number of POCSO cases increased from 3,030 in 2020 to 3,322 in 2021, and then to 4,582 in 2022. </h3>
+            </div>
+          </div>
+          
+        </div>
+      </section>
+
+      <section id="tech" class="tech">
+        <h2 class="section-title">Cutting-edge Technology</h2>
+        <div class="tech-showcase">
+          <div class="tech-item">
+            <i class="fas fa-robot"></i>
+            <h3>AI-Powered Alerts</h3>
+            <p>Intelligent sensors detect distress and trigger notifications</p>
+          </div>
+          <div class="tech-item">
+            <i class="fas fa-comments"></i>
+            <h3>Multimodal Communication</h3>
+            <p>Advanced NLP for voice, text, and biometric data</p>
+          </div>
+          <div class="tech-item">
+            <i class="fas fa-mobile-alt"></i>
+            <h3>Cross-platform Integration</h3>
+            <p>Seamless functionality across iOS, Android, and wearables</p>
+          </div>
+          <div class="tech-item">
+            <i class="fa-solid fa-location-crosshairs"></i>
+            <h3>Cellular Connection</h3>
+            <p>Cellular connections are essential for staying connected and accessing information from anywhere.</p>
+          </div>
+          <div class="tech-item">
+            <i class="fa-solid fa-power-off"></i>
+            <h3>Switch-Off Tracking</h3>
+            <p>Switch-off tracking refers to the process of disabling or limiting data collection and tracking activities on a device.</p>
+          </div>
+          <div class="tech-item">
+            <i class="fa-solid fa-language"></i>
+            <h3>Multi Language Support</h3>
+            <p>Multi-language support refers to the ability multiple languages, allowing users to choose their preferred language for the interface and content.</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="cta" class="cta">
+        <div class="cta-content">
+          <h2>Embrace the Power of SOS</h2>
+          <p>Join millions in making safety a priority. Activate SOS today.</p>
+          <button class="cta-button pulse">Get Started</button>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer-content">
+        <div class="footer-logo">
+          <svg width="40" height="40" viewBox="0 0 100 100">
+            <circle
+              cx="50"
+              cy="50"
+              r="45"
+              fill="none"
+              stroke="#ff4d4d"
+              stroke-width="8"
+            />
+            <text
+              x="50"
+              y="65"
+              text-anchor="middle"
+              fill="#ff4d4d"
+              font-size="40"
+              font-weight="bold"
+            >
+              SOS
+            </text>
+          </svg>
+        </div>
+        <div class="footer-links">
+          <a href="#" class="footer-link">Privacy Policy</a>
+          <a href="#" class="footer-link">Terms of Service</a>
+          <a href="#" class="footer-link">Contact Us</a>
+        </div>
+        <div class="social-icons">
+          <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+          <a href="#" class="social-icon"><i class="fab fa-facebook"></i></a>
+          <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+        </div>
+      </div>
+      <p class="copyright">&copy; 2024 SOS Technology. All rights reserved to Aakash Mundhara.</p>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/ScrollTrigger.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.0/vanilla-tilt.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
